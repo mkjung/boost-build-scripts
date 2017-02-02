@@ -3,7 +3,7 @@ call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x86
 set cores=%NUMBER_OF_PROCESSORS%
 echo Building boost with %cores% cores
 
-cd boost_1_61_0
+cd boost_1_63_0
 call bootstrap.bat
 
 rem Most libraries can be static libs
